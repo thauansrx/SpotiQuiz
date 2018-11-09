@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">aps_android</string>
+    <string name="app_name">Quiz</string>
+    <string name="botão_iniciar">iniciar</string>
+    <string name="botao_proximo">proximo</string>
+    <string name="todo">TODO</string>
+   <!-- <string name="radiobutton"></string>-->
 </resources>
