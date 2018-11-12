@@ -23,10 +23,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void iniciar(View view){
+    public void iniciar(View v){
         Intent intent = new Intent(MainActivity.this, TelaQuiz.class);
-        startActivity(intent);
-        finish();
+        startActivity(intent);        finish();
     }
 
 }
