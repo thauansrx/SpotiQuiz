@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "980265600768",
+    "firebase_url": "https://spotiquiz-5d760.firebaseio.com",
+    "project_id": "spotiquiz-5d760",
+    "storage_bucket": "spotiquiz-5d760.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980265600768:android:54134a96cfe80df9",
+        "android_client_info": {
+          "package_name": "thauan.com.br.spotiquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980265600768-6rjnlccqmadjj1f2akg0cmpj1i4u97eh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "thauan.com.br.spotiquiz",
+            "certificate_hash": "6c4b4a25f38d7f67e0be795530e6e43b207a85cc"
+          }
+        },
+        {
+          "client_id": "980265600768-8ifm812asdpqfrf54qugcr1439nruo9i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHYkORWReaAZ_CD_zBy8Ekt1JEXSAgyd0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980265600768-8ifm812asdpqfrf54qugcr1439nruo9i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

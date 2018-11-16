@@ -1,4 +1,4 @@
-package aps.com.br.aps_android;
+package thauan.com.br.spotiquiz;
 
 import org.junit.Test;
 

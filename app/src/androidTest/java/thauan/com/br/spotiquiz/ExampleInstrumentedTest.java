@@ -1,4 +1,4 @@
-package aps.com.br.aps_android;
+package thauan.com.br.spotiquiz;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("aps.com.br.aps_android", appContext.getPackageName());
+        assertEquals("thauan.com.br.spotiquiz", appContext.getPackageName());
     }
 }
