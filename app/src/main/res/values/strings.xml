@@ -3,4 +3,5 @@
     <string name="btn_iniciar">Iniciar</string>
     <string name="todo">TODO</string>
     <string name="link_sobre">Sobre</string>
+    <string name="botao_proximo">proximo</string>
 </resources>
