@@ -27,4 +27,10 @@ public class Home extends AppCompatActivity {
         finish();
 
     }
+
+    public void sobreNos(View view) {
+        Intent gameActivity = new Intent(Home.this,AboutUs.class);
+        startActivity(gameActivity);
+        finish();
+    }
 }

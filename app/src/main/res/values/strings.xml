@@ -2,6 +2,11 @@
     <string name="app_name">SpotiQuiz</string>
     <string name="btn_iniciar">Iniciar</string>
     <string name="todo">TODO</string>
-    <string name="link_sobre">Sobre</string>
+    <string name="link_sobre">Sobre Nós</string>
     <string name="botao_proximo">proximo</string>
+    <string name="note">SpotiQuiz é um aplicativo inteligente que é projetado com interface de usuário simples e otimizada. SpotiQuiz conta com perguntas da categoria musical referente ao Spotify.</string>
+    <string name="spotiquiz">SpotiQuiz</string>
+    <string name="version_1_0_0">Version 1.0.0</string>
+    <string name="visit_website">Visit Website</string>
+
 </resources>
