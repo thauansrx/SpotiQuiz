@@ -17,9 +17,7 @@ public class AboutUs extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_us);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
 
         b = (Button) findViewById(R.id.visit_website);
         b.setOnClickListener(new View.OnClickListener() {
@@ -35,6 +33,14 @@ public class AboutUs extends AppCompatActivity {
 
             }
         });
+
+    }
+
+    public void returnHome(View view) {
+
+        Intent homeActivity = new Intent(AboutUs.this,Home.class);
+        startActivity(homeActivity);
+        finish();
 
     }
 }
