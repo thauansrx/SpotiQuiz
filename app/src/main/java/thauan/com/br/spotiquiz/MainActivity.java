@@ -1,6 +1,8 @@
 package thauan.com.br.spotiquiz;
 
+
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -70,9 +72,11 @@ public class MainActivity extends AppCompatActivity {
                     if(!user.isEmpty()){
 
                         Usuario login = dataSnapshot.child(user).getValue(Usuario.class);
-                        if(login.getSenha().equals(pwd))
-                            Toast.makeText(MainActivity.this, "Login ok!", Toast.LENGTH_SHORT).show();
-
+                        if(login.getSenha().equals(pwd)) {
+                            Intent homeActivity = new Intent(MainActivity.this,Home.class);
+                            startActivity(homeActivity);
+                            finish();
+                        }
                         else
                             Toast.makeText(MainActivity.this, "Senha incorreta!", Toast.LENGTH_SHORT).show();
                     }else{
